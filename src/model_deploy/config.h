@@ -14,14 +14,31 @@ struct Config {
 
   const char* output_message[label_num] = {
         "V:\n\r"
-        " *              *\n\r"
-        "  *            * \n\r"
-        "   *          *  \n\r"
-        "    *        *   \n\r"
-        "     *      *    \n\r"
-        "      *    *     \n\r"
-        "       *  *      \n\r"
-        "        **       \n\r"};
+        " *              * \n\r"
+        "  *            *  \n\r"
+        "   *          *   \n\r"
+        "    *        *    \n\r"
+        "     *      *     \n\r"
+        "      *    *      \n\r"
+        "       *  *       \n\r"
+        "        **        \n\r",
+        "RING:\n\r"
+        "          *       \n\r"
+        "       *     *    \n\r"
+        "     *         *  \n\r"
+        "    *           * \n\r"
+        "     *         *  \n\r"
+        "       *     *    \n\r"
+        "          *       \n\r",
+        "SLOPE:\n\r"
+        "        *        \n\r"
+        "       *         \n\r"
+        "      *          \n\r"
+        "     *           \n\r"
+        "    *            \n\r"
+        "   *             \n\r"
+        "  *              \n\r"
+        " * * * * * * * * \n\r"};
 };
 
 Config config;
